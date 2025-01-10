@@ -1,0 +1,3 @@
+const allowedEmails = {
+  "yopmail.com": "",
+}
