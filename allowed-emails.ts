@@ -1,3 +1,0 @@
-const allowedEmails = {
-  "yopmail.com": "",
-}
