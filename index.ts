@@ -16,4 +16,6 @@ function isBurnerDomain(domain: string): boolean {
   return allowedEmails[domain] !== undefined;
 }
 
-export default isBurnerEmail;
+export default {
+  isBurnerEmail, isBurnerDomain
+};
