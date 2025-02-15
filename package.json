@@ -1,0 +1,25 @@
+{
+  "name": "burner-email",
+  "version": "1.0.0",
+  "description": "Identify disposable emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "burner",
+    "temp",
+    "email",
+    "fake"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inuoshios/burner-email"
+  },
+  "homepage": "https://github.com/inuoshios/burner-email#readme",
+  "author": "inuoshios",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
