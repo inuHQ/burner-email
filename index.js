@@ -1,3 +1,5 @@
+const allowedEmails = require('./generated-file.js');
+
 /**
  * Checks whether the given email address is a known disposable/burner email.
  * @param email the email address to check

@@ -37,6 +37,8 @@ async function generateEmailList() {
 // This file should not be modified manually
 
 const allowedEmails = ${JSON.stringify(emailObject, null, 2)};
+
+export default allowedEmails;
 `;
 
     fs.writeFileSync('generated-file.js', fileContent);
