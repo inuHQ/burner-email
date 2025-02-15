@@ -1,4 +1,4 @@
-// Generated on 2025-02-15T18:01:13.064Z
+// Generated on 2025-02-15T18:04:07.657Z
 // This file should not be modified manually
 
 const allowedEmails = {
@@ -27286,4 +27286,4 @@ const allowedEmails = {
   "zzzz1717.com": ""
 };
 
-export default allowedEmails;
+module.exports = allowedEmails;

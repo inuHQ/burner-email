@@ -38,7 +38,7 @@ async function generateEmailList() {
 
 const allowedEmails = ${JSON.stringify(emailObject, null, 2)};
 
-export default allowedEmails;
+module.exports = allowedEmails;
 `;
 
     fs.writeFileSync('generated-file.js', fileContent);
