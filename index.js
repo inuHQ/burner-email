@@ -3,7 +3,7 @@
  * @param email the email address to check
  * @returns true if the email is a known disposable/burner email, false otherwise
  */
-function isBurnerEmail(email: string): boolean {
+function isBurnerEmail(email) {
   return allowedEmails[email.split('@')[1]] !== undefined;
 }
 
@@ -12,7 +12,7 @@ function isBurnerEmail(email: string): boolean {
  * @param domain the domain to check
  * @returns true if the domain is a known disposable/burner domain, false otherwise
  */
-function isBurnerDomain(domain: string): boolean {
+function isBurnerDomain(domain) {
   return allowedEmails[domain] !== undefined;
 }
 

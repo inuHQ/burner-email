@@ -39,7 +39,7 @@ async function generateEmailList() {
 const allowedEmails = ${JSON.stringify(emailObject, null, 2)};
 `;
 
-    fs.writeFileSync('generated-file.ts', fileContent);
+    fs.writeFileSync('generated-file.js', fileContent);
     console.log('Successfully generated email list file!');
   } catch (error) {
     console.error('Error generating email list:', error);
