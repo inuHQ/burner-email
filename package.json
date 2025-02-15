@@ -14,9 +14,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/inuoshios/burner-email"
+    "url": "https://github.com/inuHQ/burner-email"
   },
-  "homepage": "https://github.com/inuoshios/burner-email#readme",
+  "homepage": "https://github.com/inuHQ/burner-email#readme",
   "author": "inuoshios",
   "license": "MIT",
   "publishConfig": {
